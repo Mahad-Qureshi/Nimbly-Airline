@@ -1,0 +1,130 @@
+/* Testimonial Start */
+.testimonialContainer {
+    align-items: flex-start;
+    padding: 150px 15px;
+}
+
+.testimonialHead {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.tstmnialCol1 {
+    width: 40%;
+}
+
+.tstmnialCol2 {
+    width: 60%;
+    padding-left: 75px;
+}
+
+.slick-slide {
+    height: unset !important;
+}
+
+.testimonial-slider-wrapper {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.testimonial {
+    position: relative;
+}
+
+.testimonial-slider .slick-track {
+    display: flex !important;
+    flex-wrap: nowrap;
+}
+
+.testimonial-slider .slick-slide {
+    height: auto !important;
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.testimonial-slider .testimonial {
+    background-color: #FFFFFF;
+    padding: 28px 64px 30px 34px;
+    border-radius: 10px;
+    margin: 0 15px;
+    margin-top: 25px;
+    min-height: 200px;
+    margin-bottom: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 3px 15px 0px #a7a7a740;
+
+}
+
+.testimonial p,
+.testimonial h4,
+.location {
+    font-family: 'Poppins', sans-serif;
+    color: #5E6282;
+}
+
+.testimonial p {
+    line-height: 28px !important;
+}
+
+.testimonial-slider .testimonial p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.testimonial-slider .testimonial h4 {
+    margin-top: 34px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.location {
+    font-size: 14px !important;
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    color: #1C1C1C;
+    border-radius: 50px;
+    border: 1px solid #1C1C1C;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.slick-prev {
+    left: -85%;
+}
+
+.slick-next {
+    left: -72%;
+}
+
+
+.slick-prev:hover,
+.slick-next:hover {
+    background-color: #F4C542;
+    color: #fff;
+    border-color: #F4C542;
+}
+
+.clientAvatar {
+    width: 8%;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+}
+
+/* Testimonial End */
